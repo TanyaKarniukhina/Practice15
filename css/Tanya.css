@@ -1,0 +1,32 @@
+.articles {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.articles-container {
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles-block {
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.articles-block:nth-child(1) {
+    background: #FAEA73;
+}
+
+.articles-block:nth-child(2) {
+    background: #CCEFF6;
+}
+
+.articles-block:nth-child(3) {
+    background: #F7CEDC;
+}
